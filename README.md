@@ -53,17 +53,24 @@ The barista villager is just a simple villager that sells their coffee related i
 # Trades
 
 Level 1 - Mug/Coffee Bean/Ground Coffee Beans
+
 Level 2 - Black Coffee and Cafe Au Lait
+
 Level 3 - Espresso and Latte
+
 Level 4 - Black Coffee and Cafe Au Lait, both with a random potion
+
 Level 5 - Espresso and Latte, both with a random potion
 *random potions also include mods
 
 ## Coffee Summary
 
 Black Coffee - Regular food item that can have effects
+
 Cafe Au Lait - Clears negative effects
+
 Espresso - Grants the caffinated effect
+
 Latte - Combination of all of the above
 
 
