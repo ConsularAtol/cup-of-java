@@ -22,7 +22,6 @@ public class MugItem extends Item{
 
     public MugItem(Settings settings) {
         super(settings);
-        //TODO Auto-generated constructor stub
     }
 
     @Override
