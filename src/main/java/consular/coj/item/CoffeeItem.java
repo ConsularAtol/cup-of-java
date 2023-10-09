@@ -1,5 +1,7 @@
 package consular.coj.item;
 
+import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 import org.jetbrains.annotations.Nullable;
@@ -27,10 +29,12 @@ import net.minecraft.world.World;
 public class CoffeeItem extends Item {
 
     private String type;
+    private boolean creamed;
 
-    public CoffeeItem(Settings settings, String type) {
+    public CoffeeItem(Settings settings, String type, Boolean creamed) {
         super(settings);
         this.type = type;
+        this.creamed = creamed;
     }
 
     public void setType(String type){
@@ -51,6 +55,15 @@ public class CoffeeItem extends Item {
         }
         if (!world.isClient) {
             List<StatusEffectInstance> list = PotionUtil.getPotionEffects(stack);
+            List<StatusEffectInstance> list2 = new ArrayList<>();
+            list2.addAll(user.getStatusEffects());
+            if (creamed){
+                for (int i = 0; i < list2.size(); i++){
+                    if (!list2.get(i).getEffectType().isBeneficial()){
+                        user.removeStatusEffect(list2.get(i).getEffectType());
+                    }
+                }
+            }
             for (StatusEffectInstance statusEffectInstance : list) {
                 if (statusEffectInstance.getEffectType().isInstant()) {
                     statusEffectInstance.getEffectType().applyInstantEffect(user, user, user, statusEffectInstance.getAmplifier(), 1.0);

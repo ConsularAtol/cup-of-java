@@ -20,16 +20,16 @@ public class ModItems {
 
     public static final Item GROUND_COFFEE_BEANS = registerItem("ground_coffee_beans", new Item(new Item.Settings()));
 
-    public static final Item BLACK_COFFEE = registerCoffee("black_coffee", "black");
+    public static final Item BLACK_COFFEE = registerCoffee("black_coffee", "black", false);
 
-    public static final Item CAFÉ_AU_LAIT = registerCoffee("cafe_au_lait", "café_au_lait");
+    public static final Item CAFÉ_AU_LAIT = registerCoffee("cafe_au_lait", "café_au_lait", true);
 
-    public static final Item ESPRESSO = registerCoffee("espresso", "espresso");
+    public static final Item ESPRESSO = registerCoffee("espresso", "espresso", false);
 
-    public static final Item LATTE = registerCoffee("latte", "latte");
+    public static final Item LATTE = registerCoffee("latte", "latte", true);
 
-    private static Item registerCoffee(String name, String type){
-        return registerItem(name, new CoffeeItem(new Item.Settings().food(FoodComponents.HONEY_BOTTLE).maxCount(1), type));
+    private static Item registerCoffee(String name, String type, boolean creamed){
+        return registerItem(name, new CoffeeItem(new Item.Settings().food(FoodComponents.HONEY_BOTTLE).maxCount(1), type, creamed));
     }
 
     private static Item registerItem(String name, Item item){
