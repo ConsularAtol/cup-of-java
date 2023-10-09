@@ -46,4 +46,25 @@ Ground Coffee Beans allows for even more types of coffee to be brewed. Ground co
 
 So, in the end, we have an item that restores hunger, clears negative effects, grants more effects, and repells phantoms. Who would've thought a crippling caffine addiction can do that? 
 
+## Barista Villager
+
+The barista villager is just a simple villager that sells their coffee related items to you. You can get one by simply bringing an enemployed non-nitwit villager to a coffee maker.
+
+# Trades
+
+Level 1 - Mug/Coffee Bean/Ground Coffee Beans
+Level 2 - Black Coffee and Cafe Au Lait
+Level 3 - Espresso and Latte
+Level 4 - Black Coffee and Cafe Au Lait, both with a random potion
+Level 5 - Espresso and Latte, both with a random potion
+*random potions also include mods
+
+## Coffee Summary
+
+Black Coffee - Regular food item that can have effects
+Cafe Au Lait - Clears negative effects
+Espresso - Grants the caffinated effect
+Latte - Combination of all of the above
+
+
 **copius amounts of caffiene was consumed in the making of this mod**
