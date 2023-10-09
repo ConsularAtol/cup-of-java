@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cross",
+    "textures": {
+      "cross": "coj:block/coffee_plant_stage1"
+    }
+  }

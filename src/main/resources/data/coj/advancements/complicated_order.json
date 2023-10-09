@@ -1,0 +1,26 @@
+{
+    "parent": "coj:i_am_awake",
+    "display": {
+      "icon": {
+        "item": "coj:latte"
+      },
+      "title": "Complicated Order",
+      "description": "Put Speed II in a latte. Baristas everywhere hate you",
+      "frame": "challenge"
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "coj:latte"
+              ],
+              "potion": "minecraft:strong_swiftness"
+            }
+          ]
+        }
+      }
+    }
+  }

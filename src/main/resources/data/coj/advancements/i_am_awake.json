@@ -1,0 +1,20 @@
+{
+    "parent": "coj:like_my_men",
+    "display": {
+      "icon": {
+        "item": "coj:espresso"
+      },
+      "title": "I Am Awake",
+      "description": "Become caffinated and repel the phantoms"
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:effects_changed",
+        "conditions": {
+          "effects": {
+            "coj:caffinated": {}
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,24 @@
+{
+    "display": {
+      "icon": {
+        "item": "coj:coffee_maker"
+      },
+      "background": "minecraft:textures/block/oak_planks.png",
+      "title": "Cup Of Java",
+      "description": "Make a Coffee Maker and get brewing!"
+    },
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": [
+                "coj:coffee_maker"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  }

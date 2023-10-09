@@ -1,0 +1,16 @@
+{
+    "itemGroup.coj": "Cup Of Java",
+    "item.coj.coffee": "Coffee",
+    "item.coj.mug_of_water": "Water Mug",
+    "item.coj.mug": "Mug",
+    "item.coj.coffee_bean": "Coffee Bean",
+    "item.coj.ground_coffee_beans": "Ground Coffee Beans",
+    "coj.coffee.black": "Black",
+    "coj.coffee.café_au_lait": "Café au lait",
+    "coj.coffee.latte": "Latte",
+    "coj.coffee.espresso": "Espresso",
+    "effect.coj.caffinated": "Caffinated",
+    "container.coffee_maker": "Coffee Maker",
+    "block.coj.coffee_maker": "Coffee Maker",
+    "entity.minecraft.villager.coffee_maker": "Barista"
+}
